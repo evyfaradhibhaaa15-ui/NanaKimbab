@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Nana Kimbab</title>
+    <link rel="stylesheet" href="style.css">
+    <a href="http://NanaKimbab.com">Klik di sini</a>
+
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Nana<span>Kimbab</span>.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tentang">Tentang Kami</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Mari Nikmati <span>Seporsi Kimbab</span></h1>
+      <p>Setiap gulungan dibuat dari bahan segar, penuh cinta, dan rasa autentik Korea yang bikin nagih.</p>
+      <a href="#menu" class="btn">Beli Sekarang</a>
+    </div>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="tentang" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+    <div class="about-content">
+      <img src="Kimbab 2.jpg" alt="Tentang Kami">
+      <p>Kimbab kami adalah pilihan tepat untuk menikmati hidangan sehat dan lezat.
+        Dibuat dari bahan-bahan segar, nasi lembut, dan gulungan rumput 
+        laut yang gurih, setiap potongan menghadirkan rasa yang menyehatkan dan memuaskan.</p>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section id="menu" class="menu">
+    <h2><span>Menu</span> Kami</h2>
+    <div class="menu-list">
+      <div class="menu-item">
+        <img src="1.jpg" alt="Kimbab Original">
+        <h3>Kimbab Original</h3>
+        <p>Rp 15.000</p>
+      </div>
+      <div class="menu-item">
+        <img src="Kimbab 1.jpg" alt="Kimbab Ayam Suwir Pedas ">
+        <h3>Kimbab Ayam Suwir Pedas</h3>
+        <p>Rp 20.000</p>
+      </div>
+      <div class="menu-item">
+        <img src="3.jpg" alt="Kimbab Salmon">
+        <h3>Kimbab Salmon</h3>
+        <p>Rp 25.000</p>
+      </div>
+    <div class="menu-item">
+        <img src="4.jpg" alt="Kimbab Tuna">
+        <h3>Kimbab Tuna</h3>
+        <p>Rp 25.000</p>
+      </div>
+    <div class="menu-item">
+        <img src="Kimbab6.jpg" alt="Modeum Kimbab">
+        <h3>Modeum Kimbab</h3>
+        <p>Rp 35.000</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak" class="kontak">
+    <h2><span>Kontak</span> Kami</h2>
+    <div class="contact-container">
+      <iframe src="https://www.google.com/maps/embed?..." 
+        width="100%" height="250" style="border:0;" allowfullscreen=""></iframe>
+      <form>
+        <input type="text" placeholder="Nama" required>
+        <input type="List Menu" placeholder="Menu" required>
+        <input type="text" placeholder="Berapa Porsi" required>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nana Kimbab | Created by NanaKimbab</p>
+  </footer>    
+</body>
+</html>
